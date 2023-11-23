@@ -27,7 +27,8 @@ public class Sword : MonoBehaviour
         playerControls = new PlayerControls();
     }
 
-    private void OnEnable() {
+    private void OnEnable() 
+    {
         playerControls.Enable();
     }
     
