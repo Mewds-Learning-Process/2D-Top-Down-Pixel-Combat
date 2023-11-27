@@ -128,6 +128,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5662217379696238826, guid: 79fc020d941444f45b9b6213bd17cc75, type: 3}
   m_PrefabInstance: {fileID: 1754101642}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &91250048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 91250049}
+  - component: {fileID: 91250050}
+  m_Layer: 0
+  m_Name: Bow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &91250049
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91250048}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2027007885}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &91250050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91250048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1cb4320de43c9546b1209f2a72c102e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &115833855 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 523746121499346144, guid: d6f9930f9dfb662429088e90a7b2c99b, type: 3}
@@ -28337,6 +28381,8 @@ Transform:
   m_Children:
   - {fileID: 1728767398}
   - {fileID: 1918187621}
+  - {fileID: 91250049}
+  - {fileID: 2043088106}
   m_Father: {fileID: 1880244102}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2027007886
@@ -28351,6 +28397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1997f0190eba56544b860821df2314ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentActiveWeapon: {fileID: 1728767400}
 --- !u!1001 &2038762977
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28408,6 +28455,50 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79fc020d941444f45b9b6213bd17cc75, type: 3}
+--- !u!1 &2043088105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2043088106}
+  - component: {fileID: 2043088107}
+  m_Layer: 0
+  m_Name: Staff
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2043088106
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2043088105}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2027007885}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2043088107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2043088105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ded720a3f7ec8f040953d9f156c19bc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &2059394600 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 523746121499346144, guid: d6f9930f9dfb662429088e90a7b2c99b, type: 3}
