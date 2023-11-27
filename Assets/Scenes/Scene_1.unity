@@ -27786,6 +27786,7 @@ MonoBehaviour:
   moveSpeed: 4
   dashSpeed: 4
   myTrailRenderer: {fileID: 917964123}
+  weaponCollider: {fileID: 520281693}
 --- !u!50 &1880244100
 Rigidbody2D:
   serializedVersion: 4
@@ -28297,7 +28298,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1997f0190eba56544b860821df2314ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentActiveWeapon: {fileID: 0}
 --- !u!1001 &2038762977
 PrefabInstance:
   m_ObjectHideFlags: 0
